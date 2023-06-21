@@ -1,0 +1,469 @@
+[
+  {
+    "MusicID": 3940,
+    "Name": "谎言",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-05 18:22:02",
+        "PlayerScore": 85210,
+        "ComboCount": 565,
+        "PlayerPercent": 9499,
+        "PlayerMiss": 3,
+        "MusicRank": 12,
+        "MusicRanking": 750
+      }
+    ]
+  },
+  {
+    "MusicID": 3326,
+    "Name": "Don't Touch",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-12 19:20:34",
+        "PlayerScore": 82624,
+        "ComboCount": 138,
+        "PlayerPercent": 7318,
+        "PlayerMiss": 130,
+        "MusicRank": 13,
+        "MusicRanking": 418
+      }
+    ]
+  },
+  {
+    "MusicID": 1388,
+    "Name": "PIRI",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-08-19 19:05:19",
+        "PlayerScore": 83542,
+        "ComboCount": 133,
+        "PlayerPercent": 7793,
+        "PlayerMiss": 159,
+        "MusicRank": 14,
+        "MusicRanking": 3888
+      }
+    ]
+  },
+  {
+    "MusicID": 1045,
+    "Name": "刺痛",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-23 20:49:46",
+        "PlayerScore": 86354,
+        "ComboCount": 488,
+        "PlayerPercent": 8287,
+        "PlayerMiss": 70,
+        "MusicRank": 13,
+        "MusicRanking": 1815
+      }
+    ]
+  },
+  {
+    "MusicID": 5434,
+    "Name": "Cheshire",
+    "MusicIndex": 5,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-02-18 19:22:13",
+        "PlayerScore": 84250,
+        "ComboCount": 329,
+        "PlayerPercent": 9361,
+        "PlayerMiss": 6,
+        "MusicRank": 12,
+        "MusicRanking": 1376
+      }
+    ]
+  },
+  {
+    "MusicID": 5159,
+    "Name": "FREEZE",
+    "MusicIndex": 85,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-11-12 20:26:52",
+        "PlayerScore": 109274,
+        "ComboCount": 249,
+        "PlayerPercent": 9364,
+        "PlayerMiss": 22,
+        "MusicRank": 14,
+        "MusicRanking": 1264
+      }
+    ]
+  },
+  {
+    "MusicID": 5049,
+    "Name": "Freak",
+    "MusicIndex": 100,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-10-29 21:05:13",
+        "PlayerScore": 111851,
+        "ComboCount": 173,
+        "PlayerPercent": 8849,
+        "PlayerMiss": 21,
+        "MusicRank": 14,
+        "MusicRanking": 1377
+      }
+    ]
+  },
+  {
+    "MusicID": 668,
+    "Name": "play",
+    "MusicIndex": 103,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-10-29 21:27:39",
+        "PlayerScore": 95796,
+        "ComboCount": 290,
+        "PlayerPercent": 9328,
+        "PlayerMiss": 9,
+        "MusicRank": 14,
+        "MusicRanking": 4836
+      }
+    ]
+  },
+  {
+    "MusicID": 828,
+    "Name": "switch to me",
+    "MusicIndex": 113,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-26 21:03:34",
+        "PlayerScore": 89996,
+        "ComboCount": 571,
+        "PlayerPercent": 9708,
+        "PlayerMiss": 2,
+        "MusicRank": 11,
+        "MusicRanking": 2047
+      }
+    ]
+  },
+  {
+    "MusicID": 4453,
+    "Name": "Step back",
+    "MusicIndex": 131,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-08-24 16:19:04",
+        "PlayerScore": 90492,
+        "ComboCount": 239,
+        "PlayerPercent": 9505,
+        "PlayerMiss": 8,
+        "MusicRank": 13,
+        "MusicRanking": 1824
+      }
+    ]
+  },
+  {
+    "MusicID": 382,
+    "Name": "上海之恋",
+    "MusicIndex": 132,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 1,
+        "RecordTime": "2022-01-21 15:36:30",
+        "PlayerScore": 93608,
+        "ComboCount": 99,
+        "PlayerPercent": 8218,
+        "PlayerMiss": 83,
+        "MusicRank": 11,
+        "MusicRanking": 15682
+      },
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-02-18 19:52:14",
+        "PlayerScore": 124820,
+        "ComboCount": 418,
+        "PlayerPercent": 8827,
+        "PlayerMiss": 21,
+        "MusicRank": 14,
+        "MusicRanking": 12921
+      }
+    ]
+  },
+  {
+    "MusicID": 4292,
+    "Name": "死一样的痛过 Pt2",
+    "MusicIndex": 145,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-05 18:39:24",
+        "PlayerScore": 93701,
+        "ComboCount": 327,
+        "PlayerPercent": 9150,
+        "PlayerMiss": 16,
+        "MusicRank": 13,
+        "MusicRanking": 1342
+      }
+    ]
+  },
+  {
+    "MusicID": 420,
+    "Name": "Loner",
+    "MusicIndex": 146,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 1,
+        "RecordTime": "2022-07-07 19:42:27",
+        "PlayerScore": 102310,
+        "ComboCount": 340,
+        "PlayerPercent": 9078,
+        "PlayerMiss": 45,
+        "MusicRank": 14,
+        "MusicRanking": 7224
+      }
+    ]
+  },
+  {
+    "MusicID": 347,
+    "Name": "Hard Carry",
+    "MusicIndex": 150,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-03-19 18:37:58",
+        "PlayerScore": 72412,
+        "ComboCount": 196,
+        "PlayerPercent": 7931,
+        "PlayerMiss": 138,
+        "MusicRank": 9,
+        "MusicRanking": 12754
+      }
+    ]
+  },
+  {
+    "MusicID": 85,
+    "Name": "FIRE",
+    "MusicIndex": 155,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-01 20:52:51",
+        "PlayerScore": 67957,
+        "ComboCount": 106,
+        "PlayerPercent": 8188,
+        "PlayerMiss": 92,
+        "MusicRank": 10,
+        "MusicRanking": 11753
+      }
+    ]
+  },
+  {
+    "MusicID": 474,
+    "Name": "love scenario",
+    "MusicIndex": 170,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 1,
+        "RecordTime": "2022-08-22 20:20:25",
+        "PlayerScore": 78497,
+        "ComboCount": 790,
+        "PlayerPercent": 9936,
+        "PlayerMiss": 0,
+        "MusicRank": 9,
+        "MusicRanking": 440
+      }
+    ]
+  },
+  {
+    "MusicID": 93,
+    "Name": "品行zero",
+    "MusicIndex": 177,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-06-20 20:14:33",
+        "PlayerScore": 113938,
+        "ComboCount": 401,
+        "PlayerPercent": 9543,
+        "PlayerMiss": 8,
+        "MusicRank": 12,
+        "MusicRanking": 5400
+      }
+    ]
+  },
+  {
+    "MusicID": 3760,
+    "Name": "Scientist",
+    "MusicIndex": 182,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-20 20:23:34",
+        "PlayerScore": 71639,
+        "ComboCount": 126,
+        "PlayerPercent": 8488,
+        "PlayerMiss": 47,
+        "MusicRank": 10,
+        "MusicRanking": 1435
+      }
+    ]
+  },
+  {
+    "MusicID": 3554,
+    "Name": "The feels",
+    "MusicIndex": 183,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 18:24:18",
+        "PlayerScore": 80246,
+        "ComboCount": 120,
+        "PlayerPercent": 7335,
+        "PlayerMiss": 176,
+        "MusicRank": 13,
+        "MusicRanking": 7244
+      }
+    ]
+  },
+  {
+    "MusicID": 514,
+    "Name": "As if its your last",
+    "MusicIndex": 209,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 1,
+        "RecordTime": "2022-08-25 21:00:03",
+        "PlayerScore": 76757,
+        "ComboCount": 476,
+        "PlayerPercent": 9418,
+        "PlayerMiss": 2,
+        "MusicRank": 11,
+        "MusicRanking": 3007
+      }
+    ]
+  },
+  {
+    "MusicID": 4937,
+    "Name": "Pink Venom",
+    "MusicIndex": 216,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-02-23 18:34:39",
+        "PlayerScore": 86585,
+        "ComboCount": 268,
+        "PlayerPercent": 8246,
+        "PlayerMiss": 107,
+        "MusicRank": 15,
+        "MusicRanking": 3906
+      }
+    ]
+  },
+  {
+    "MusicID": 5110,
+    "Name": "Yeah Yeah Yeah",
+    "MusicIndex": 220,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-10-29 21:13:04",
+        "PlayerScore": 114148,
+        "ComboCount": 390,
+        "PlayerPercent": 9364,
+        "PlayerMiss": 11,
+        "MusicRank": 13,
+        "MusicRanking": 1235
+      }
+    ]
+  },
+  {
+    "MusicID": 4752,
+    "Name": "UP!",
+    "MusicIndex": 221,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-23 20:45:53",
+        "PlayerScore": 82539,
+        "ComboCount": 325,
+        "PlayerPercent": 9011,
+        "PlayerMiss": 16,
+        "MusicRank": 13,
+        "MusicRanking": 1893
+      }
+    ]
+  },
+  {
+    "MusicID": 168,
+    "Name": "sober",
+    "MusicIndex": 260,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-03-11 20:37:04",
+        "PlayerScore": 92485,
+        "ComboCount": 306,
+        "PlayerPercent": 9515,
+        "PlayerMiss": 6,
+        "MusicRank": 12,
+        "MusicRanking": 3793
+      }
+    ]
+  }
+]

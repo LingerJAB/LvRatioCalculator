@@ -1,0 +1,1240 @@
+[
+  {
+    "MusicID": 5847,
+    "Name": "With you",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-05-06 19:44:26",
+        "PlayerScore": 104066,
+        "ComboCount": 383,
+        "PlayerPercent": 9041,
+        "PlayerMiss": 34,
+        "MusicRank": 14,
+        "MusicRanking": 231
+      }
+    ]
+  },
+  {
+    "MusicID": 5791,
+    "Name": "The Best Of Me",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-03-18 19:53:46",
+        "PlayerScore": 119046,
+        "ComboCount": 321,
+        "PlayerPercent": 8044,
+        "PlayerMiss": 139,
+        "MusicRank": 14,
+        "MusicRanking": 322
+      }
+    ]
+  },
+  {
+    "MusicID": 5120,
+    "Name": "Seasons",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-05-27 21:11:16",
+        "PlayerScore": 82523,
+        "ComboCount": 92,
+        "PlayerPercent": 9039,
+        "PlayerMiss": 43,
+        "MusicRank": 12,
+        "MusicRanking": 419
+      }
+    ]
+  },
+  {
+    "MusicID": 4741,
+    "Name": "Seasons（NIVIRO Remix)",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-02-23 18:16:49",
+        "PlayerScore": 90716,
+        "ComboCount": 146,
+        "PlayerPercent": 9276,
+        "PlayerMiss": 17,
+        "MusicRank": 14,
+        "MusicRanking": 317
+      }
+    ]
+  },
+  {
+    "MusicID": 3983,
+    "Name": "Love Is Gone",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-06-25 21:01:33",
+        "PlayerScore": 85115,
+        "ComboCount": 659,
+        "PlayerPercent": 9829,
+        "PlayerMiss": 1,
+        "MusicRank": 13,
+        "MusicRanking": 233
+      }
+    ]
+  },
+  {
+    "MusicID": 3615,
+    "Name": "Gravity",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-09-24 19:44:44",
+        "PlayerScore": 83831,
+        "ComboCount": 255,
+        "PlayerPercent": 8705,
+        "PlayerMiss": 90,
+        "MusicRank": 15,
+        "MusicRanking": 963
+      }
+    ]
+  },
+  {
+    "MusicID": 3571,
+    "Name": "High（feat.Aleesia）",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-11-06 20:25:14",
+        "PlayerScore": 98679,
+        "ComboCount": 748,
+        "PlayerPercent": 9674,
+        "PlayerMiss": 2,
+        "MusicRank": 14,
+        "MusicRanking": 1133
+      }
+    ]
+  },
+  {
+    "MusicID": 3533,
+    "Name": "STAY YOUNG A",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-05-13 19:39:34",
+        "PlayerScore": 113755,
+        "ComboCount": 373,
+        "PlayerPercent": 9551,
+        "PlayerMiss": 20,
+        "MusicRank": 13,
+        "MusicRanking": 468
+      }
+    ]
+  },
+  {
+    "MusicID": 3420,
+    "Name": "Bad Boy",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-08-19 19:08:23",
+        "PlayerScore": 68425,
+        "ComboCount": 431,
+        "PlayerPercent": 9464,
+        "PlayerMiss": 4,
+        "MusicRank": 12,
+        "MusicRanking": 925
+      }
+    ]
+  },
+  {
+    "MusicID": 3374,
+    "Name": "Power",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-01 18:38:20",
+        "PlayerScore": 66026,
+        "ComboCount": 178,
+        "PlayerPercent": 7740,
+        "PlayerMiss": 67,
+        "MusicRank": 13,
+        "MusicRanking": 3123
+      }
+    ]
+  },
+  {
+    "MusicID": 3271,
+    "Name": "Fly Away",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-02 19:02:40",
+        "PlayerScore": 109362,
+        "ComboCount": 317,
+        "PlayerPercent": 8700,
+        "PlayerMiss": 15,
+        "MusicRank": 11,
+        "MusicRanking": 1776
+      }
+    ]
+  },
+  {
+    "MusicID": 3177,
+    "Name": "Seasons",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-04-02 17:21:12",
+        "PlayerScore": 87094,
+        "ComboCount": 213,
+        "PlayerPercent": 9129,
+        "PlayerMiss": 18,
+        "MusicRank": 12,
+        "MusicRanking": 1600
+      }
+    ]
+  },
+  {
+    "MusicID": 3161,
+    "Name": "Silence",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-07 21:08:09",
+        "PlayerScore": 87460,
+        "ComboCount": 757,
+        "PlayerPercent": 9772,
+        "PlayerMiss": 2,
+        "MusicRank": 12,
+        "MusicRanking": 442
+      }
+    ]
+  },
+  {
+    "MusicID": 1372,
+    "Name": "Light It Up",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-28 21:00:35",
+        "PlayerScore": 113310,
+        "ComboCount": 734,
+        "PlayerPercent": 9153,
+        "PlayerMiss": 10,
+        "MusicRank": 13,
+        "MusicRanking": 1470
+      }
+    ]
+  },
+  {
+    "MusicID": 1035,
+    "Name": "C U Again",
+    "MusicIndex": 0,
+    "OwnerType": 2,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-03-19 19:05:28",
+        "PlayerScore": 72706,
+        "ComboCount": 211,
+        "PlayerPercent": 8281,
+        "PlayerMiss": 72,
+        "MusicRank": 14,
+        "MusicRanking": 2548
+      }
+    ]
+  },
+  {
+    "MusicID": 5431,
+    "Name": "Tukoh Taka",
+    "MusicIndex": 2,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-03-11 21:17:29",
+        "PlayerScore": 86042,
+        "ComboCount": 218,
+        "PlayerPercent": 9144,
+        "PlayerMiss": 11,
+        "MusicRank": 14,
+        "MusicRanking": 2142
+      }
+    ]
+  },
+  {
+    "MusicID": 5784,
+    "Name": "See Tình",
+    "MusicIndex": 6,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2023-03-18 19:41:38",
+        "PlayerScore": 83386,
+        "ComboCount": 178,
+        "PlayerPercent": 9275,
+        "PlayerMiss": 12,
+        "MusicRank": 12,
+        "MusicRanking": 1124
+      }
+    ]
+  },
+  {
+    "MusicID": 332,
+    "Name": "Faded",
+    "MusicIndex": 285,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-10-04 17:43:17",
+        "PlayerScore": 96545,
+        "ComboCount": 986,
+        "PlayerPercent": 9578,
+        "PlayerMiss": 1,
+        "MusicRank": 7,
+        "MusicRanking": 4243
+      }
+    ]
+  },
+  {
+    "MusicID": 3413,
+    "Name": "alone pt2",
+    "MusicIndex": 286,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-06-03 21:47:13",
+        "PlayerScore": 84180,
+        "ComboCount": 339,
+        "PlayerPercent": 9406,
+        "PlayerMiss": 4,
+        "MusicRank": 10,
+        "MusicRanking": 2659
+      }
+    ]
+  },
+  {
+    "MusicID": 3557,
+    "Name": "Man on the moon",
+    "MusicIndex": 287,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-01 21:05:52",
+        "PlayerScore": 75610,
+        "ComboCount": 268,
+        "PlayerPercent": 8782,
+        "PlayerMiss": 13,
+        "MusicRank": 11,
+        "MusicRanking": 2200
+      }
+    ]
+  },
+  {
+    "MusicID": 697,
+    "Name": "lily",
+    "MusicIndex": 288,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-04-03 20:14:50",
+        "PlayerScore": 92688,
+        "ComboCount": 481,
+        "PlayerPercent": 9526,
+        "PlayerMiss": 3,
+        "MusicRank": 9,
+        "MusicRanking": 3361
+      }
+    ]
+  },
+  {
+    "MusicID": 579,
+    "Name": "On My Way",
+    "MusicIndex": 289,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 19:20:03",
+        "PlayerScore": 65843,
+        "ComboCount": 321,
+        "PlayerPercent": 8551,
+        "PlayerMiss": 20,
+        "MusicRank": 10,
+        "MusicRanking": 9530
+      }
+    ]
+  },
+  {
+    "MusicID": 639,
+    "Name": "End of time",
+    "MusicIndex": 290,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-06-02 21:21:35",
+        "PlayerScore": 95261,
+        "ComboCount": 655,
+        "PlayerPercent": 9385,
+        "PlayerMiss": 5,
+        "MusicRank": 12,
+        "MusicRanking": 5392
+      }
+    ]
+  },
+  {
+    "MusicID": 488,
+    "Name": "Ignite",
+    "MusicIndex": 291,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 17:31:29",
+        "PlayerScore": 76308,
+        "ComboCount": 106,
+        "PlayerPercent": 8127,
+        "PlayerMiss": 61,
+        "MusicRank": 13,
+        "MusicRanking": 13835
+      }
+    ]
+  },
+  {
+    "MusicID": 460,
+    "Name": "The Spectre",
+    "MusicIndex": 293,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 1,
+        "RecordTime": "2022-03-19 18:30:16",
+        "PlayerScore": 90726,
+        "ComboCount": 605,
+        "PlayerPercent": 9745,
+        "PlayerMiss": 3,
+        "MusicRank": 11,
+        "MusicRanking": 2354
+      },
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-09-24 20:38:03",
+        "PlayerScore": 116334,
+        "ComboCount": 416,
+        "PlayerPercent": 8997,
+        "PlayerMiss": 65,
+        "MusicRank": 16,
+        "MusicRanking": 11653
+      }
+    ]
+  },
+  {
+    "MusicID": 3281,
+    "Name": "sweet dreams",
+    "MusicIndex": 294,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2021-12-25 17:07:50",
+        "PlayerScore": 67957,
+        "ComboCount": 110,
+        "PlayerPercent": 8217,
+        "PlayerMiss": 47,
+        "MusicRank": 13,
+        "MusicRanking": 5459
+      }
+    ]
+  },
+  {
+    "MusicID": 3414,
+    "Name": "what we started",
+    "MusicIndex": 296,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-22 20:42:10",
+        "PlayerScore": 81257,
+        "ComboCount": 159,
+        "PlayerPercent": 8283,
+        "PlayerMiss": 47,
+        "MusicRank": 11,
+        "MusicRanking": 2745
+      }
+    ]
+  },
+  {
+    "MusicID": 740,
+    "Name": "aurora",
+    "MusicIndex": 297,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-20 19:57:30",
+        "PlayerScore": 79500,
+        "ComboCount": 388,
+        "PlayerPercent": 9298,
+        "PlayerMiss": 3,
+        "MusicRank": 9,
+        "MusicRanking": 3273
+      }
+    ]
+  },
+  {
+    "MusicID": 743,
+    "Name": "fearless",
+    "MusicIndex": 298,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 17:41:28",
+        "PlayerScore": 51066,
+        "ComboCount": 169,
+        "PlayerPercent": 7893,
+        "PlayerMiss": 86,
+        "MusicRank": 11,
+        "MusicRanking": 7841
+      }
+    ]
+  },
+  {
+    "MusicID": 670,
+    "Name": "you can be my light",
+    "MusicIndex": 308,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 18:55:50",
+        "PlayerScore": 94594,
+        "ComboCount": 172,
+        "PlayerPercent": 8071,
+        "PlayerMiss": 119,
+        "MusicRank": 12,
+        "MusicRanking": 8760
+      }
+    ]
+  },
+  {
+    "MusicID": 681,
+    "Name": "wrap me in plastic",
+    "MusicIndex": 309,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-03-12 20:10:29",
+        "PlayerScore": 77249,
+        "ComboCount": 366,
+        "PlayerPercent": 9024,
+        "PlayerMiss": 21,
+        "MusicRank": 10,
+        "MusicRanking": 6749
+      }
+    ]
+  },
+  {
+    "MusicID": 661,
+    "Name": "100 ways",
+    "MusicIndex": 310,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-07 20:18:04",
+        "PlayerScore": 115871,
+        "ComboCount": 1174,
+        "PlayerPercent": 9870,
+        "PlayerMiss": 0,
+        "MusicRank": 11,
+        "MusicRanking": 1469
+      }
+    ]
+  },
+  {
+    "MusicID": 647,
+    "Name": "Sold out",
+    "MusicIndex": 318,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-08-22 20:26:10",
+        "PlayerScore": 74406,
+        "ComboCount": 754,
+        "PlayerPercent": 9816,
+        "PlayerMiss": 0,
+        "MusicRank": 9,
+        "MusicRanking": 1381
+      }
+    ]
+  },
+  {
+    "MusicID": 601,
+    "Name": "waiting for love",
+    "MusicIndex": 319,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2021-12-25 20:08:35",
+        "PlayerScore": 57670,
+        "ComboCount": 181,
+        "PlayerPercent": 8672,
+        "PlayerMiss": 18,
+        "MusicRank": 8,
+        "MusicRanking": 8023
+      }
+    ]
+  },
+  {
+    "MusicID": 562,
+    "Name": "Without You",
+    "MusicIndex": 320,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 19:40:41",
+        "PlayerScore": 85061,
+        "ComboCount": 229,
+        "PlayerPercent": 9117,
+        "PlayerMiss": 24,
+        "MusicRank": 9,
+        "MusicRanking": 7094
+      }
+    ]
+  },
+  {
+    "MusicID": 564,
+    "Name": "Believer",
+    "MusicIndex": 325,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2021-12-25 20:11:42",
+        "PlayerScore": 71905,
+        "ComboCount": 154,
+        "PlayerPercent": 8489,
+        "PlayerMiss": 26,
+        "MusicRank": 11,
+        "MusicRanking": 10195
+      }
+    ]
+  },
+  {
+    "MusicID": 638,
+    "Name": "Buttercup",
+    "MusicIndex": 332,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-07 20:32:26",
+        "PlayerScore": 83632,
+        "ComboCount": 847,
+        "PlayerPercent": 9874,
+        "PlayerMiss": 0,
+        "MusicRank": 9,
+        "MusicRanking": 1033
+      }
+    ]
+  },
+  {
+    "MusicID": 486,
+    "Name": "handclap",
+    "MusicIndex": 334,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-10-05 21:58:36",
+        "PlayerScore": 79379,
+        "ComboCount": 299,
+        "PlayerPercent": 9728,
+        "PlayerMiss": 5,
+        "MusicRank": 9,
+        "MusicRanking": 2205
+      }
+    ]
+  },
+  {
+    "MusicID": 479,
+    "Name": "psycho2",
+    "MusicIndex": 335,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-11-12 20:22:38",
+        "PlayerScore": 94154,
+        "ComboCount": 967,
+        "PlayerPercent": 9717,
+        "PlayerMiss": 0,
+        "MusicRank": 12,
+        "MusicRanking": 2502
+      }
+    ]
+  },
+  {
+    "MusicID": 546,
+    "Name": "Run Free",
+    "MusicIndex": 338,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-20 20:50:08",
+        "PlayerScore": 93596,
+        "ComboCount": 269,
+        "PlayerPercent": 9369,
+        "PlayerMiss": 14,
+        "MusicRank": 10,
+        "MusicRanking": 6027
+      }
+    ]
+  },
+  {
+    "MusicID": 480,
+    "Name": "Mine",
+    "MusicIndex": 342,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-04-02 21:23:39",
+        "PlayerScore": 94403,
+        "ComboCount": 533,
+        "PlayerPercent": 8914,
+        "PlayerMiss": 19,
+        "MusicRank": 13,
+        "MusicRanking": 7837
+      }
+    ]
+  },
+  {
+    "MusicID": 3280,
+    "Name": "alibi",
+    "MusicIndex": 343,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 19:37:04",
+        "PlayerScore": 68209,
+        "ComboCount": 159,
+        "PlayerPercent": 8623,
+        "PlayerMiss": 24,
+        "MusicRank": 13,
+        "MusicRanking": 5563
+      }
+    ]
+  },
+  {
+    "MusicID": 481,
+    "Name": "So Far Away",
+    "MusicIndex": 347,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-08 20:50:06",
+        "PlayerScore": 70280,
+        "ComboCount": 201,
+        "PlayerPercent": 8741,
+        "PlayerMiss": 21,
+        "MusicRank": 12,
+        "MusicRanking": 4965
+      }
+    ]
+  },
+  {
+    "MusicID": 525,
+    "Name": "chasing colors",
+    "MusicIndex": 353,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2021-12-25 16:20:37",
+        "PlayerScore": 85300,
+        "ComboCount": 133,
+        "PlayerPercent": 8085,
+        "PlayerMiss": 94,
+        "MusicRank": 12,
+        "MusicRanking": 10707
+      }
+    ]
+  },
+  {
+    "MusicID": 351,
+    "Name": "Alone1",
+    "MusicIndex": 356,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-08-14 21:07:14",
+        "PlayerScore": 109301,
+        "ComboCount": 569,
+        "PlayerPercent": 9716,
+        "PlayerMiss": 3,
+        "MusicRank": 11,
+        "MusicRanking": 3169
+      }
+    ]
+  },
+  {
+    "MusicID": 623,
+    "Name": "Natural",
+    "MusicIndex": 372,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-20 20:01:05",
+        "PlayerScore": 71047,
+        "ComboCount": 406,
+        "PlayerPercent": 9120,
+        "PlayerMiss": 5,
+        "MusicRank": 8,
+        "MusicRanking": 4903
+      }
+    ]
+  },
+  {
+    "MusicID": 4456,
+    "Name": "U Make Me",
+    "MusicIndex": 376,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-21 19:53:38",
+        "PlayerScore": 92187,
+        "ComboCount": 623,
+        "PlayerPercent": 9173,
+        "PlayerMiss": 10,
+        "MusicRank": 14,
+        "MusicRanking": 1668
+      }
+    ]
+  },
+  {
+    "MusicID": 396,
+    "Name": "Something Just Like This",
+    "MusicIndex": 379,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-03-12 19:19:10",
+        "PlayerScore": 87129,
+        "ComboCount": 403,
+        "PlayerPercent": 9564,
+        "PlayerMiss": 5,
+        "MusicRank": 9,
+        "MusicRanking": 3898
+      }
+    ]
+  },
+  {
+    "MusicID": 398,
+    "Name": "The greatest",
+    "MusicIndex": 381,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-06-03 19:55:26",
+        "PlayerScore": 65047,
+        "ComboCount": 369,
+        "PlayerPercent": 9266,
+        "PlayerMiss": 6,
+        "MusicRank": 12,
+        "MusicRanking": 3903
+      }
+    ]
+  },
+  {
+    "MusicID": 399,
+    "Name": "stay",
+    "MusicIndex": 383,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-03-12 19:22:16",
+        "PlayerScore": 100213,
+        "ComboCount": 261,
+        "PlayerPercent": 9472,
+        "PlayerMiss": 11,
+        "MusicRank": 10,
+        "MusicRanking": 5225
+      }
+    ]
+  },
+  {
+    "MusicID": 413,
+    "Name": "ain my fault",
+    "MusicIndex": 393,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 19:44:35",
+        "PlayerScore": 77165,
+        "ComboCount": 61,
+        "PlayerPercent": 8106,
+        "PlayerMiss": 86,
+        "MusicRank": 11,
+        "MusicRanking": 8766
+      }
+    ]
+  },
+  {
+    "MusicID": 219,
+    "Name": "beautiful now",
+    "MusicIndex": 396,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 1,
+        "RecordTime": "2021-12-25 19:49:45",
+        "PlayerScore": 59260,
+        "ComboCount": 224,
+        "PlayerPercent": 8651,
+        "PlayerMiss": 23,
+        "MusicRank": 13,
+        "MusicRanking": 7085
+      },
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-05 19:17:39",
+        "PlayerScore": 79418,
+        "ComboCount": 172,
+        "PlayerPercent": 8814,
+        "PlayerMiss": 30,
+        "MusicRank": 15,
+        "MusicRanking": 8929
+      }
+    ]
+  },
+  {
+    "MusicID": 2686,
+    "Name": "stay1",
+    "MusicIndex": 401,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-05-05 19:20:31",
+        "PlayerScore": 80147,
+        "ComboCount": 105,
+        "PlayerPercent": 8740,
+        "PlayerMiss": 28,
+        "MusicRank": 12,
+        "MusicRanking": 6976
+      }
+    ]
+  },
+  {
+    "MusicID": 234,
+    "Name": "First Of The Year",
+    "MusicIndex": 413,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 19:29:56",
+        "PlayerScore": 90719,
+        "ComboCount": 124,
+        "PlayerPercent": 8129,
+        "PlayerMiss": 30,
+        "MusicRank": 12,
+        "MusicRanking": 8463
+      }
+    ]
+  },
+  {
+    "MusicID": 254,
+    "Name": "Sugarm",
+    "MusicIndex": 432,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-20 19:54:23",
+        "PlayerScore": 94318,
+        "ComboCount": 266,
+        "PlayerPercent": 9104,
+        "PlayerMiss": 16,
+        "MusicRank": 9,
+        "MusicRanking": 7009
+      }
+    ]
+  },
+  {
+    "MusicID": 271,
+    "Name": "Turn All The Lights On",
+    "MusicIndex": 440,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-08-24 16:47:35",
+        "PlayerScore": 92979,
+        "ComboCount": 228,
+        "PlayerPercent": 9062,
+        "PlayerMiss": 16,
+        "MusicRank": 14,
+        "MusicRanking": 8168
+      }
+    ]
+  },
+  {
+    "MusicID": 580,
+    "Name": "Out of Time",
+    "MusicIndex": 462,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-09 19:26:03",
+        "PlayerScore": 73321,
+        "ComboCount": 292,
+        "PlayerPercent": 8626,
+        "PlayerMiss": 11,
+        "MusicRank": 12,
+        "MusicRanking": 9720
+      }
+    ]
+  },
+  {
+    "MusicID": 722,
+    "Name": "watch the world burn",
+    "MusicIndex": 465,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 1,
+        "RecordTime": "2022-02-09 19:23:04",
+        "PlayerScore": 58273,
+        "ComboCount": 167,
+        "PlayerPercent": 8659,
+        "PlayerMiss": 26,
+        "MusicRank": 9,
+        "MusicRanking": 1773
+      }
+    ]
+  },
+  {
+    "MusicID": 3559,
+    "Name": "those eyes",
+    "MusicIndex": 467,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-22 20:38:14",
+        "PlayerScore": 58021,
+        "ComboCount": 114,
+        "PlayerPercent": 8242,
+        "PlayerMiss": 29,
+        "MusicRank": 12,
+        "MusicRanking": 3201
+      }
+    ]
+  },
+  {
+    "MusicID": 1367,
+    "Name": "close",
+    "MusicIndex": 469,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-02-12 18:05:07",
+        "PlayerScore": 69834,
+        "ComboCount": 323,
+        "PlayerPercent": 8773,
+        "PlayerMiss": 22,
+        "MusicRank": 13,
+        "MusicRanking": 6066
+      }
+    ]
+  },
+  {
+    "MusicID": 522,
+    "Name": "take me hand",
+    "MusicIndex": 471,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2021-12-25 19:53:22",
+        "PlayerScore": 74231,
+        "ComboCount": 481,
+        "PlayerPercent": 9097,
+        "PlayerMiss": 9,
+        "MusicRank": 10,
+        "MusicRanking": 6676
+      }
+    ]
+  },
+  {
+    "MusicID": 1917,
+    "Name": "lordly",
+    "MusicIndex": 474,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-01-15 19:10:53",
+        "PlayerScore": 46524,
+        "ComboCount": 49,
+        "PlayerPercent": 7444,
+        "PlayerMiss": 103,
+        "MusicRank": 10,
+        "MusicRanking": 6453
+      }
+    ]
+  },
+  {
+    "MusicID": 4620,
+    "Name": "Energy Drink",
+    "MusicIndex": 475,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 14,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-07 20:35:38",
+        "PlayerScore": 79041,
+        "ComboCount": 174,
+        "PlayerPercent": 9410,
+        "PlayerMiss": 9,
+        "MusicRank": 15,
+        "MusicRanking": 2367
+      }
+    ]
+  },
+  {
+    "MusicID": 4756,
+    "Name": "into the light",
+    "MusicIndex": 481,
+    "OwnerType": 1,
+    "ItemRankList": [
+      {
+        "MusicLev": 13,
+        "MusicLevOld": 2,
+        "RecordTime": "2022-07-19 20:38:12",
+        "PlayerScore": 91338,
+        "ComboCount": 314,
+        "PlayerPercent": 9358,
+        "PlayerMiss": 11,
+        "MusicRank": 13,
+        "MusicRanking": 882
+      }
+    ]
+  }
+]
