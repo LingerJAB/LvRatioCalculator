@@ -16,6 +16,8 @@ public class LvRatioCalculator {
 
         //Input Your DanceCubeBase Bearer Token Here
         String auth = "bearer " + "iDQH1yM8yK_WhbZffU_GU641aYxUJXnFyiZFF8iSe-taI3Fk5EnyBeFMuAn00A8uuRWTy_DIzNaWi1hygQQLU_QiROBC6ztsAvxd8Itz-djHQOrth4EQOnLcwTSEBz2JsF5lSb4_14QwxJrzG9UzGcMhPXZ-A5yLR3da21VzXYbzKgcLi2_ykNWKTnJhqBa6V4iRIZUdFx_bittJWpw8XOzpB4n8lLcYZGcu4YEsGvYLTrqnHn41fpbN-NpPrQaxZfC7I4GYJV9sPdoZMrdnlVQUyHuEY4kaw5FF7QNofrtXhjCuZE2ejdNiGulNRJpIIdc43mzA1j7O-XghsXY4XuuAfSajn79GGwg-7N146clzPt7v4PHIoyDOixlo5JLVEReEk8MjEYowuKICoSeA3z5rvLe45zH8bYtN0ojxSIZ_VyGqRWBR1LMTYlq98Yf_M8RBBVOt98pj0aXL5SoJl8fm2bo0CK-i-RZXu0fKbG8oxf107keXHbEGZ274c16k-IhIfvy1J_5QoomvUglMY0sSY4dgwk1UhBHd8phpiayQIFECdH_WV9CwehWliK2BZwYwl2Xh6IRmmUqsY2XI3zLQnzq52SwBnWx-Nu78hPjAKnNZFlTlE0PfSYa6xcSzRz3aci-mY-m9pLp1t3oJDxTSLR5Pw9UdxcWZ-D9C-CfRim-OzLVBrtmn0dEF07XNYYPTZwxq8DZwfAi-Xa5at7mHfOWDt1RXVCvwhAf8uYKcq12zp4uaZDXmjJefSpx5-524g1IOwpcpswYGZIhdfclfI-_fIgY_t7ciFl9zmYOgvgf60u6LGkm1KeycHztfFFQAJrBU3REIOWDqYHNL5oUYk-CaM2mEKYzb1DoITNBENuqicDb3_whU0IryMEiK";
+
+        //The parameter officialOnly given true will ignore non-official music (including fan-made chart)
         ArrayList<RankMusicInfo> allRankList = getAllRankList(auth, true);
         ArrayList<RecentMusicInfo> allRecentList = getAllRecentList(auth, true);
         ArrayList<RankMusicInfo> rank15List = new ArrayList<>(getSubRank15List(allRankList));
@@ -95,7 +97,6 @@ public class LvRatioCalculator {
         return ((List<RankMusicInfo>) list).subList(0, 15);
     }
 
-
     public static ArrayList<RecentMusicInfo> getAllRecentList(String auth, boolean officialOnly) throws IOException {
 
         OkHttpClient client = new OkHttpClient();
@@ -133,9 +134,7 @@ abstract class MusicInfo {
     int id;
     String name;
 
-
     abstract float getBestRatio();
-
 }
 
 /**
