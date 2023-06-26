@@ -1,4 +1,4 @@
-package com.lin;
+package com.lin.calc;
 
 import com.google.gson.*;
 import com.squareup.okhttp.OkHttpClient;
@@ -73,7 +73,7 @@ public class LvRatioCalculator {
         return infos;
     }
 
-    public static ArrayList<RankMusicInfo> getAllRankList(String auth, boolean officialOnly) throws IOException {
+    public static ArrayList<RankMusicInfo> getAllRankList(String auth, boolean officialOnly) {
 
         OkHttpClient client = new OkHttpClient();
         String url = "https://dancedemo.shenghuayule.com/Dance/api/User/GetMyRankNew?musicIndex=";
@@ -82,11 +82,15 @@ public class LvRatioCalculator {
 
         for(int i = 1; i<=6; i++) {
             Request request = new Request.Builder().url(url + i).get().addHeader("Authorization", auth).build();
-            Response response = client.newCall(request).execute();
+            try {
+                Response response = client.newCall(request).execute();
 
-            ResponseBody body = response.body();
-            json = body.string();
-            body.close();
+                ResponseBody body = response.body();
+                json = body.string();
+                body.close();
+            } catch(IOException e) {
+                throw new RuntimeException(e);
+            }
             musicInfos.addAll(getCategoryRankList(json, officialOnly));
         }
         return musicInfos;
@@ -97,18 +101,22 @@ public class LvRatioCalculator {
         return ((List<RankMusicInfo>) list).subList(0, 15);
     }
 
-    public static ArrayList<RecentMusicInfo> getAllRecentList(String auth, boolean officialOnly) throws IOException {
+    public static ArrayList<RecentMusicInfo> getAllRecentList(String auth, boolean officialOnly) {
 
         OkHttpClient client = new OkHttpClient();
         String url = "https://dancedemo.shenghuayule.com/Dance/api/User/GetLastPlay";
         String json;
 
         Request request = new Request.Builder().url(url).get().addHeader("Authorization", auth).build();
-        Response response = client.newCall(request).execute();
+        try {
+            Response response = client.newCall(request).execute();
 
-        ResponseBody body = response.body();
-        json = body.string();
-        body.close();
+            ResponseBody body = response.body();
+            json = body.string();
+            body.close();
+        } catch(IOException e) {
+            throw new RuntimeException(e);
+        }
 
         ArrayList<RecentMusicInfo> musicInfoList = new ArrayList<>();
         for(JsonElement element : JsonParser.parseString(json).getAsJsonArray()) {
@@ -129,119 +137,4 @@ public class LvRatioCalculator {
 
 }
 
-
-abstract class MusicInfo {
-    int id;
-    String name;
-
-    abstract float getBestRatio();
-}
-
-/**
- * 最近记录音乐信息
- */
-class RecentMusicInfo extends MusicInfo {
-    private int level;
-    private float acc;
-
-    //TODO
-
-    public static RecentMusicInfo get(JsonObject object) {
-        RecentMusicInfo musicInfo = new RecentMusicInfo();
-        musicInfo.id = object.get("MusicID").getAsInt();
-        musicInfo.name = object.get("MusicName").getAsString();
-        musicInfo.level = object.get("MusicLevel").getAsInt();
-        musicInfo.acc = object.get("PlayerPercent").getAsFloat() / 100;
-        return musicInfo;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-
-    public float getAcc() {
-        return acc;
-    }
-
-    public float getBestRatio() {
-//        return Math.round((level + 2) * getAcc());
-        return (level + 2) * getAcc();
-    }
-
-    @Override
-    public String toString() {
-
-
-        return String.format("""
-                Name: %s
-                Level: %d
-                Percent: %.2f
-                #Ratio: %.2f
-                """, name, level, getAcc(), getBestRatio());
-    }
-}
-
-/**
- * 排名记录音乐信息
- */
-class RankMusicInfo extends MusicInfo {
-    private boolean official;
-    private final ArrayList<SingleRank> accList = new ArrayList<>();
-
-    public static RankMusicInfo get(JsonObject object) {
-        RankMusicInfo musicInfo = new RankMusicInfo();
-        musicInfo.id = object.get("MusicID").getAsInt();
-        musicInfo.name = object.get("Name").getAsString();
-        musicInfo.official = object.get("OwnerType").getAsInt()==1;
-        object.get("ItemRankList").getAsJsonArray().forEach(element -> {
-            float acc = element.getAsJsonObject().get("PlayerPercent").getAsFloat() / 100;
-            int level = element.getAsJsonObject().get("MusicRank").getAsInt();
-            musicInfo.accList.add(new SingleRank(level, acc));
-        });
-        return musicInfo;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public boolean isOfficial() {
-        return official;
-    }
-
-    public float getBestRatio() {
-        accList.sort((o1, o2) -> o1.ratio>o2.ratio ? -1 : (o1.ratio==o2.ratio ? 0 : 1));
-//        return Math.round(accList.get(0).ratio);
-        return accList.get(0).ratio;
-    }
-
-    @Override
-    public String toString() {
-        return "Name: %s\n#Ratio: %s\n#BestRatio: %.2f\n".formatted(name, accList, getBestRatio());
-    }
-
-
-}
-
-class SingleRank {
-    int level;
-    float acc;
-    float ratio;
-
-    public SingleRank(int level, float acc) {
-        this.level = level;
-        this.acc = acc;
-        this.ratio = (level + 2) * acc;
-    }
-
-
-    @Override
-    public String toString() {
-        return "{level: " + level + ", acc:" + acc + ", ratio=" + ratio + "}";
-    }
-}
 

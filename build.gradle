@@ -13,8 +13,14 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.squareup.okhttp:okhttp:2.7.5'
     implementation 'junit:junit:4.13.1'
-    implementation 'org.knowm.xchart:xchart:3.8.4'
+    implementation 'com.freewayso:image-combiner:2.6.3'
+    implementation 'cn.hutool:hutool-core:5.8.20'
 }
 
 test {
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs += '--add-exports java.desktop/sun.font=ALL-UNNAMED'
+    options.compilerArgs += "--illegal-access=permit"
 }
