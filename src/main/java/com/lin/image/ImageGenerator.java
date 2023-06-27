@@ -1,18 +1,12 @@
 package com.lin.image;
 
-import com.freewayso.image.combiner.ImageCombiner;
-import com.google.gson.JsonParser;
 import com.lin.calc.*;
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.Response;
 import org.junit.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -65,38 +59,48 @@ public class ImageGenerator {
         String text = """
                 是铃酱呐~
 
-                段位：%d:%s...
+                段位：%d //段位
                 战队：%s
-                战力：%d""".formatted(info.getMusicScore(), info.getTeamName(),info.getLvRatio());
+                战力：%d""".formatted(info.getMusicScore(), info.getTeamName(), info.getLvRatio());
         Font font = new Font("得意黑", Font.PLAIN, 45);
         drawer.color(Color.BLACK)
                 .font(font)
-                .drawText(text, 245, 189, 0);
+                .drawText(text, 245, 189,new textEffect(null,0));
 
         // B15
 
 //        ArrayList<BufferedImage> rankCovers = getRankCovers(token);
         ArrayList<RankMusicInfo> allRankList = LvRatioCalculator.getAllRankList(token.getBearerToken(), true);
         List<RankMusicInfo> rank15List = LvRatioCalculator.getSubRank15List(allRankList);
-        int index=0;
-        int x0=15,y0=620;
-        int dx = 395,dy = 180; //x y延伸长度
+        int index = 0;
+        int dx = 395, dy = 180; //x y延伸长度
+        Font titleFont=new Font("微软雅黑", Font.BOLD,32);
+        Font scoreFont=new Font("庞门正道标题体", Font.PLAIN,52);
+        Font infoFont=new Font("庞门正道标题体", Font.PLAIN,15);
         for(int row = 0; row<5; row++) { //列
-            for(int col = 0; col<3; col++,index++) { //行
+            for(int col = 0; col<3; col++, index++) { //行
+                int dx2 = col * dx;
+                int dy2 = row * dy;
                 RankMusicInfo musicInfo = rank15List.get(index);
                 BufferedImage cover = getCover(musicInfo.getId());
                 SingleRank bestInfo = musicInfo.getBestInfo();
-                BufferedImage card= switch(bestInfo.getDifficulty()) {
-                    case 0:yield card1;
-                    case 1:yield card2;
-                    case 2:yield card3;
+                BufferedImage card = switch(bestInfo.getDifficulty()) {
+                    case 0:
+                        yield card1;
+                    case 1:
+                        yield card2;
+                    case 2:
+                        yield card3;
                     default:
                         throw new IllegalStateException("Unexpected value: " + bestInfo.getDifficulty());
                 };
-                Effect effect=new Effect(35,35);
-                drawer.drawImage(cover, x0+col*dx, y0+row*dy,130,158,effect)
-                        .drawImage(card,x0+col*dx-5, y0+row*dy-3);
-
+                imageEffect effect = new imageEffect(35, 35);
+                drawer.drawImage(cover, 15 + dx2, 620 + dy2, 130, 158, effect)
+                        .drawImage(card, 15 + dx2, 620 + dy2)
+                        .font(titleFont).drawText(musicInfo.getName(), 160 + dx2, 650 + dy2,new textEffect(220,null))
+//                        .font(titleFont).drawText(musicInfo.getName(), 0 + dx2, 0+ dy2)
+                        .font(scoreFont).drawText(String.valueOf(bestInfo.getScore()),160+dx2,658+dy2)
+                        .font(infoFont).drawText("%d\n%d\n%.2f%%".formatted(bestInfo.getCombo(),bestInfo.getMiss(),bestInfo.getAcc()),230+dx2,740+dy2,new textEffect(null,1));
             }
         }
 
@@ -108,24 +112,26 @@ public class ImageGenerator {
 
     @Test
     public void test() throws Exception {
-        long currentTimeMillis = System.currentTimeMillis();
-        OkHttpClient client = new OkHttpClient();
-        Request request = new Request.Builder().get().url("https://api.lolicon.app/setu/v2?r18=1").build();
-        Response response = client.newCall(request).execute();
-        String json = response.body().string();
-        System.out.println(json);
+//        long currentTimeMillis = System.currentTimeMillis();
+//        OkHttpClient client = new OkHttpClient();
+//        Request request = new Request.Builder().get().url("https://api.lolicon.app/setu/v2?r18=1").build();
+//        Response response = client.newCall(request).execute();
+//        String json = response.body().string();
+//        System.out.println(json);
+//
+//        String url = JsonParser.parseString(json).getAsJsonObject()
+//                .get("data").getAsJsonArray().get(0).getAsJsonObject()
+//                .get("urls").getAsJsonObject()
+//                .get("original").getAsString();
+//
+//        File out = new File("C://Users\\Lin\\IdeaProjects\\LvRatioCalculator\\src\\result.png");
+//
+//
+//        byte[] allBytes = new URL(url).openStream().readAllBytes();
+//        new FileOutputStream(out).write(allBytes);
+//        System.out.println(System.currentTimeMillis() - currentTimeMillis + "ms");
 
-        String url = JsonParser.parseString(json).getAsJsonObject()
-                .get("data").getAsJsonArray().get(0).getAsJsonObject()
-                .get("urls").getAsJsonObject()
-                .get("original").getAsString();
-
-        File out = new File("C://Users\\Lin\\IdeaProjects\\LvRatioCalculator\\src\\result.png");
-
-
-        byte[] allBytes = new URL(url).openStream().readAllBytes();
-        new FileOutputStream(out).write(allBytes);
-        System.out.println(System.currentTimeMillis() - currentTimeMillis + "ms");
+        printAvailableFonts();
     }
 
     public static ArrayList<BufferedImage> getRankCovers(Token token) {
@@ -151,7 +157,7 @@ public class ImageGenerator {
                 }
                 return ImageIO.read(defaultImg);
             }
-        }catch(IOException e){
+        } catch(IOException e) {
             throw new RuntimeException(e);
         }
     }

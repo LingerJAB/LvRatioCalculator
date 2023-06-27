@@ -17,11 +17,15 @@ public class RankMusicInfo extends MusicInfo {
         musicInfo.name = object.get("Name").getAsString();
         musicInfo.official = object.get("OwnerType").getAsInt()==1;
         object.get("ItemRankList").getAsJsonArray().forEach(element -> {
-            JsonObject obj = element.getAsJsonObject();
-            float acc = obj.get("PlayerPercent").getAsFloat() / 100;
-            int level = obj.get("MusicRank").getAsInt();
-            int difficulty= obj.get("MusicLevOld").getAsInt();
-            musicInfo.accList.add(new SingleRank(difficulty,level, acc));
+            JsonObject json = element.getAsJsonObject();
+            float acc = json.get("PlayerPercent").getAsFloat() / 100;
+            int level = json.get("MusicRank").getAsInt();
+            int difficulty= json.get("MusicLevOld").getAsInt();
+            int rank=json.get("MusicRanking").getAsInt();
+            int score=json.get("PlayerScore").getAsInt();
+            int combo=json.get("ComboCount").getAsInt();
+            int miss=json.get("PlayerMiss").getAsInt();
+            musicInfo.accList.add(new SingleRank(difficulty,level, acc,score,rank,combo,miss));
         });
         return musicInfo;
     }

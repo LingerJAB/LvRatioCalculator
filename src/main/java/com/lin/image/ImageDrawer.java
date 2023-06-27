@@ -65,26 +65,34 @@ public class ImageDrawer {
 
     public ImageDrawer drawText(String text, int x, int y) {
         graphics.setFont(font);
-        graphics.drawString(text, x, y);
+        graphics.drawString(text, x, graphics.getFontMetrics().getHeight() + y);
         return this;
     }
 
-    public ImageDrawer drawText(String text, int x, int y, int spaceHeight) {
-        int lineHeight = graphics.getFontMetrics().getHeight();    // 获取文本行高
-        for(String line : text.split("\n")) {
-            graphics.drawString(line, x, y);
-            y += lineHeight + spaceHeight;
+    public ImageDrawer drawText(String text, int x, int y, textEffect effect) {
+        if(effect.spaceHeight!=null) {
+            int lineHeight = graphics.getFontMetrics().getHeight();    // 获取文本行高
+            for(String line : text.split("\n")) {
+                graphics.drawString(line, x, y);
+                y += lineHeight + effect.spaceHeight;
+            }
+        }else if(effect.maxWidth!=null){
+             text = addDots(text, effect.maxWidth);
+            graphics.drawString(text, x, y);
+        }else {
+            graphics.drawString(text, x, y);
         }
         return this;
     }
 
     public ImageDrawer drawImage(BufferedImage bufferedImage, int x, int y) {
-        drawImage(bufferedImage,x,y,null);
+        drawImage(bufferedImage, x, y, null);
         return this;
     }
-    public ImageDrawer drawImage(BufferedImage bufferedImage, int x, int y,Effect effect) {
+
+    public ImageDrawer drawImage(BufferedImage bufferedImage, int x, int y, imageEffect effect) {
         if(effect!=null) {
-            bufferedImage=makeRoundCorner(bufferedImage,effect.arcW,effect.arcH);
+            bufferedImage = makeRoundCorner(bufferedImage, effect.arcW, effect.arcH);
         }
         graphics.drawImage(bufferedImage, x, y, null);
         return this;
@@ -94,9 +102,10 @@ public class ImageDrawer {
         drawImage(bufferedImage, x, y, width, height, null);
         return this;
     }
-    public ImageDrawer drawImage(BufferedImage bufferedImage, int x, int y, int width, int height,Effect effect) {
+
+    public ImageDrawer drawImage(BufferedImage bufferedImage, int x, int y, int width, int height, imageEffect effect) {
         if(effect!=null) {
-            bufferedImage=makeRoundCorner(bufferedImage,effect.arcW,effect.arcH);
+            bufferedImage = makeRoundCorner(bufferedImage, effect.arcW, effect.arcH);
         }
         graphics.drawImage(bufferedImage, x, y, width, height, null);
         return this;
@@ -176,6 +185,23 @@ public class ImageDrawer {
         return image;
     }
 
+    private String addDots(String text, int maxWidth) {
+        Font font = graphics.getFont();
+        FontMetrics metrics = graphics.getFontMetrics(font);
+        int textWidth = metrics.stringWidth(text);
+
+        if(textWidth>maxWidth) {
+            String ellipsis = "...";
+            int ellipsisWidth = metrics.stringWidth(ellipsis);
+
+            while(textWidth + ellipsisWidth>maxWidth && text.length()>0) {
+                text = text.substring(0, text.length() - 1);
+                textWidth = metrics.stringWidth(text);
+            }
+            text += ellipsis;
+        }
+        return text;
+    }
 
     public static void printAvailableFonts() {
         // 获取系统所有可用字体名称
@@ -188,19 +214,29 @@ public class ImageDrawer {
 
 }
 
-class Effect {
-    int arcW=-1;
-    int arcH=-1;
-    int blur=-1;
+class imageEffect {
+    int arcW = -1;
+    int arcH = -1;
+    int blur = -1;
 
-    public Effect(int arcW, int arcH) {
+    public imageEffect(int arcW, int arcH) {
         this.arcW = arcW;
         this.arcH = arcH;
     }
 
-    public Effect(int arcW, int arcH, int blur) {
+    public imageEffect(int arcW, int arcH, int blur) {
         this.arcW = arcW;
         this.arcH = arcH;
         this.blur = blur;
+    }
+}
+
+class textEffect {
+    Integer maxWidth;
+    Integer spaceHeight;
+
+    public textEffect(Integer maxWidth, Integer spaceHeight) {
+        this.maxWidth = maxWidth;
+        this.spaceHeight = spaceHeight;
     }
 }
