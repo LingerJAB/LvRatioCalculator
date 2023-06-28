@@ -69,14 +69,14 @@ public class ImageGenerator {
 
         // B15
 
-//        ArrayList<BufferedImage> rankCovers = getRankCovers(token);
         ArrayList<RankMusicInfo> allRankList = LvRatioCalculator.getAllRankList(token.getBearerToken(), true);
         List<RankMusicInfo> rank15List = LvRatioCalculator.getSubRank15List(allRankList);
         int index = 0;
         int dx = 395, dy = 180; //x y延伸长度
-        Font titleFont=new Font("微软雅黑", Font.BOLD,32);
+        Font titleFont=new Font("Microsoft YaHei UI", Font.BOLD,32);
         Font scoreFont=new Font("庞门正道标题体", Font.PLAIN,52);
         Font infoFont=new Font("庞门正道标题体", Font.PLAIN,15);
+        drawer.antiAliasing(); // 抗锯齿
         for(int row = 0; row<5; row++) { //列
             for(int col = 0; col<3; col++, index++) { //行
                 int dx2 = col * dx;
@@ -85,22 +85,64 @@ public class ImageGenerator {
                 BufferedImage cover = getCover(musicInfo.getId());
                 SingleRank bestInfo = musicInfo.getBestInfo();
                 BufferedImage card = switch(bestInfo.getDifficulty()) {
-                    case 0:
-                        yield card1;
-                    case 1:
-                        yield card2;
-                    case 2:
-                        yield card3;
-                    default:
-                        throw new IllegalStateException("Unexpected value: " + bestInfo.getDifficulty());
+                    case 0 -> card1;
+                    case 1 -> card2;
+                    case 2 -> card3;
+                    default -> throw new IllegalStateException("Unexpected value: " + bestInfo.getDifficulty());
+                };
+                BufferedImage grade = switch(bestInfo.getGrade()) {
+                    case SSS -> lvSSS;
+                    case SS -> lvSS;
+                    case S -> lvS;
+                    case A -> lvA;
+                    case B -> lvB;
+                    case C -> lvC;
+                    default -> lvD;
                 };
                 imageEffect effect = new imageEffect(35, 35);
                 drawer.drawImage(cover, 15 + dx2, 620 + dy2, 130, 158, effect)
                         .drawImage(card, 15 + dx2, 620 + dy2)
-                        .font(titleFont).drawText(musicInfo.getName(), 160 + dx2, 650 + dy2,new textEffect(220,null))
+                        .drawImage(grade, 285 + dx2, 715 + dy2)
+                        .font(titleFont).drawText(musicInfo.getName(), 160 + dx2, 650 + dy2, new textEffect(220, null))
 //                        .font(titleFont).drawText(musicInfo.getName(), 0 + dx2, 0+ dy2)
-                        .font(scoreFont).drawText(String.valueOf(bestInfo.getScore()),160+dx2,658+dy2)
-                        .font(infoFont).drawText("%d\n%d\n%.2f%%".formatted(bestInfo.getCombo(),bestInfo.getMiss(),bestInfo.getAcc()),230+dx2,740+dy2,new textEffect(null,1));
+                        .font(scoreFont).drawText(String.valueOf(bestInfo.getScore()), 160 + dx2, 658 + dy2)
+                        .font(infoFont).drawText("%d\n%d\n%.2f%%".formatted(bestInfo.getCombo(), bestInfo.getMiss(), bestInfo.getAcc()), 230 + dx2, 740 + dy2, new textEffect(null, 1));
+            }
+        }
+
+        ArrayList<RecentMusicInfo> allRecentList = LvRatioCalculator.getAllRecentList(token.getBearerToken(), true);
+        List<RecentMusicInfo> recent15List = LvRatioCalculator.getSubRecent15List(allRecentList);
+        index = 0;
+        drawer.antiAliasing(); // 抗锯齿
+        for(int row = 0; row<5; row++) { //列
+            for(int col = 0; col<3; col++, index++) { //行
+                int dx2 = col * dx;
+                int dy2 = row * dy;
+                RecentMusicInfo musicInfo = recent15List.get(index);
+                BufferedImage cover = getCover(musicInfo.getId());
+                BufferedImage card = switch(musicInfo.getDifficulty()) {
+                    case 0->card1;
+                    case 1->card2;
+                    case 2->card3;
+                    default -> throw new IllegalStateException("Unexpected value: " + musicInfo.getDifficulty());
+                };
+                BufferedImage grade=switch(musicInfo.getGrade()){
+                    case SSS -> lvSSS;
+                    case SS -> lvSS;
+                    case S -> lvS;
+                    case A -> lvA;
+                    case B -> lvB;
+                    case C -> lvC;
+                    default -> lvD;
+                };
+                imageEffect effect = new imageEffect(35, 35);
+                drawer.drawImage(cover, 15 + dx2, 1685 + dy2, 130, 158, effect) //y+1065
+                        .drawImage(card, 15 + dx2, 1685 + dy2)
+                        .drawImage(grade,285+dx2, 1780 + dy2)
+                        .font(titleFont).drawText(musicInfo.getName(), 160 + dx2, 1715 + dy2,new textEffect(220,null))
+//                        .font(titleFont).drawText(musicInfo.getName(), 0 + dx2, 0+ dy2)
+                        .font(scoreFont).drawText(String.valueOf(musicInfo.getScore()),160+dx2, 1723 + dy2)
+                        .font(infoFont).drawText("%d\n%d\n%.2f%%".formatted(musicInfo.getCombo(),musicInfo.getMiss(),musicInfo.getAcc()),230+dx2, 1805 + dy2,new textEffect(null,1));
             }
         }
 

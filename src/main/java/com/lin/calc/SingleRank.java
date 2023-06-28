@@ -1,21 +1,21 @@
 package com.lin.calc;
 
+import org.hamcrest.internal.SelfDescribingValueIterator;
+
 public class SingleRank {
     int difficulty;
     int level;
     int combo;
     int miss;
-
-    public int getCombo() {
-        return combo;
-    }
+    float acc;
+    float ratio;
 
     public int getMiss() {
         return miss;
     }
-
-    float acc;
-    float ratio;
+    public int getCombo() {
+        return combo;
+    }
 
     public int getScore() {
         return score;
@@ -38,6 +38,15 @@ public class SingleRank {
 
     public float getAcc() {
         return acc;
+    }
+    public Grade getGrade() {
+        if(acc>=98) return Grade.SSS;
+        else if(acc>=95) return Grade.SS;
+        else if(acc>=90) return Grade.S;
+        else if(acc>=80) return Grade.A;
+        else if(acc>=70) return Grade.B;
+        else if(acc>=60) return Grade.C;
+        else return Grade.D;
     }
 
     public float getRatio() {
@@ -65,3 +74,4 @@ public class SingleRank {
                 '}';
     }
 }
+

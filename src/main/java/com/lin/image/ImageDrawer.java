@@ -76,10 +76,10 @@ public class ImageDrawer {
                 graphics.drawString(line, x, y);
                 y += lineHeight + effect.spaceHeight;
             }
-        }else if(effect.maxWidth!=null){
-             text = addDots(text, effect.maxWidth);
+        } else if(effect.maxWidth!=null) {
+            text = addDots(text, effect.maxWidth);
             graphics.drawString(text, x, y);
-        }else {
+        } else {
             graphics.drawString(text, x, y);
         }
         return this;
@@ -124,6 +124,14 @@ public class ImageDrawer {
 
     public ImageDrawer dispose() {
         graphics.dispose();
+        return this;
+    }
+
+    public ImageDrawer antiAliasing() {
+        //消除文字锯齿
+        graphics.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
+        //消除画图锯齿
+        graphics.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         return this;
     }
 
